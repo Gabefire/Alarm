@@ -11,7 +11,6 @@ def set_time():
         except ValueError:
             print(f'{set_time} is not an valid input')
             continue
-        
 def current_time():
     currenthour = str(datetime.datetime.now().hour)
     currentminute = str(datetime.datetime.now().minute)
@@ -20,8 +19,9 @@ def current_time():
     return now
 
 inputtime = set_time()
-while True:
-    if inputtime <= current_time():
-        print('Alarm!')
-        break
-    time.sleep(30)
+def alarm(inputtime):
+    while True:
+        if inputtime <= current_time():
+            print('Alarm!')
+            break
+        time.sleep(30)
