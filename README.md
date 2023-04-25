@@ -7,7 +7,7 @@ To use the program, simply run the alarm.py file in your terminal or IDE. You wi
 ## Customization
 The program can be easily customized to add more features or change the behavior of the alarm. Here are a few examples:
 
-* Add sound whent the alarm goes off
+* Add sound when alarm goes off
 * Add a snooze button that delays the alarm for a set amount of time
 * Allow the user to set multiple alarms
 * Use a different sound for each alarm
